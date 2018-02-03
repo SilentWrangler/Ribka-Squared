@@ -1,49 +1,35 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerWalk : MonoBehaviour
+public class PlayerWalk : Creature
 {
 
-    public float speed;
-    public float jump;
-    public float jumpInterval = 1f;
+    
     public GameObject door;
-
-    float nexJump;
-    Rigidbody2D rb;
-    bool isTouchingFloor;
-    float direction = 0;
-    Animator anim;
-
-    void Start()
-    {
-        anim = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
-    }
+	Direction prevDir= Direction.Right;
+    
 
     void Update()
     {
-        float x = Input.GetAxisRaw("Horizontal");
-        if (Input.GetButtonDown("Jump") && nexJump < Time.time)
+		
+        if (Input.GetButtonDown("Jump"))
         {
-            nexJump = Time.time + jumpInterval;
-
-            rb.AddForce(Vector2.up * jump, ForceMode2D.Impulse);
+			Jump(jumpForce);
         }
-        rb.velocity = new Vector3(x * speed, rb.velocity.y, 0);
-
+        
+		if (Input.GetButtonDown ("Fire1")) {
+			Fire (prevDir);
+		}
         if (Input.GetAxisRaw("Horizontal") == -1)
         {
-            direction = 180;
-
-            transform.localRotation = Quaternion.Euler(0, direction, 0);
+			Walk (speed, Direction.Left);
+			prevDir = Direction.Left;
         }
 
         if (Input.GetAxisRaw("Horizontal") == 1)
         {
-            direction = 0;
-
-            transform.localRotation = Quaternion.Euler(0, direction, 0);
+			Walk (speed, Direction.Right);
+			prevDir = Direction.Right;
         }
 
         if (Input.GetAxisRaw("Horizontal") != 0)
@@ -53,6 +39,7 @@ public class PlayerWalk : MonoBehaviour
         else
         {
             anim.SetBool("IsWalking", false);
+			Walk (0, prevDir);
         }
     }
 
