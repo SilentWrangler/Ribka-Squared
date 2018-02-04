@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerWalk : Creature
 {
@@ -11,28 +12,28 @@ public class PlayerWalk : Creature
 
     void Update()
     {
-		
-        if (Input.GetButtonDown("Jump"))
+		//Debug.Log (CrossPlatformInputManager.GetAxis("Horizontal"));
+		if (CrossPlatformInputManager.GetButtonDown("Jump"))
         {
 			Jump(jumpForce);
         }
         
-		if (Input.GetButtonDown ("Fire1")) {
+		if (CrossPlatformInputManager.GetButtonDown ("Fire1")) {
 			Fire (prevDir);
 		}
-        if (Input.GetAxisRaw("Horizontal") == -1)
+		if (CrossPlatformInputManager.GetAxis("Horizontal")<0)
         {
 			Walk (speed, Direction.Left);
 			prevDir = Direction.Left;
         }
 
-        if (Input.GetAxisRaw("Horizontal") == 1)
+		if (CrossPlatformInputManager.GetAxis("Horizontal")>0)
         {
 			Walk (speed, Direction.Right);
 			prevDir = Direction.Right;
         }
 
-        if (Input.GetAxisRaw("Horizontal") != 0)
+		if (CrossPlatformInputManager.GetAxis("Horizontal")!= 0)
         {
             anim.SetBool("IsWalking", true);
         }
