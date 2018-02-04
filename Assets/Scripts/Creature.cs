@@ -9,6 +9,7 @@ public class Creature : Movable {
 	public Projectile projectile;
 	public GameObject gun;
 	[SerializeField]protected int HP=3;
+	[SerializeField]protected bool ImageFacingLeft=false;
 	protected float nexJump;
 	protected Rigidbody2D rb;
 	protected bool isTouchingFloor;
@@ -22,7 +23,7 @@ public class Creature : Movable {
 	}
 	
 
-	protected void Jump (float force) {
+	public void Jump (float force) {
 		if (nexJump < Time.time) {
 			nexJump = Time.time + jumpInterval;
 			rb.AddForce(Vector2.up * force, ForceMode2D.Impulse);
@@ -38,11 +39,17 @@ public class Creature : Movable {
 		switch (dir) {
 		case Direction.Left:
 			direction = 180;
+			if (ImageFacingLeft) {
+				direction = 0;
+			}
 			transform.localRotation = Quaternion.Euler (0, direction, 0);
 			speed =speed* -1f;
 			break;
 		case Direction.Right:
 			direction = 0;
+			if (ImageFacingLeft) {
+				direction = 180;
+			}
 			transform.localRotation = Quaternion.Euler (0, direction, 0);
 			break;
 		}
