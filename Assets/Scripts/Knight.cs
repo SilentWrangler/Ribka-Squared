@@ -133,4 +133,16 @@ public class Knight : Creature {
 			}
 		}
 	}
+
+	void OnCollisionEnter2D(Collision2D coll){
+		Creature cr = coll.gameObject.GetComponent<Creature> ();
+		if (cr) {
+			if (transform.position.y > coll.transform.position.y + 0.8) {
+				rb.AddForce (new Vector2 (Mathf.Sign (transform.position.x - coll.transform.position.x) * 10f, 10f));
+				if (coll.gameObject.CompareTag ("Player")) {
+					cr.Hurt ();
+				}
+			}
+		}
+	}
 }
