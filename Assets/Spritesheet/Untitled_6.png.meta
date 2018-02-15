@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6cc7bbdb48eb5e64384274f52137a600
-timeCreated: 1517724950
+timeCreated: 1518710638
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -81,6 +81,25 @@ TextureImporter:
     21300148: Untitled_6_74
     21300150: Untitled_6_75
     21300152: Untitled_6_76
+    21300154: Back_wall
+    21300156: Ramp_left_wbll
+    21300158: Ramp_left_wol
+    21300160: Ramp_left_bld
+    21300162: Skull
+    21300164: Platform_L_nund
+    21300166: platform_middle
+    21300168: Platform_right_nund
+    21300170: Untitled_6_77
+    21300172: Platform_left_nud
+    21300174: Platform_right_nud
+    21300176: Platform_left_ud
+    21300178: Platform_right_ud
+    21300180: Platform_left_und
+    21300182: Platform_right_und
+    21300184: Platform_middle_nud
+    21300186: Platform_middle_ud
+    21300188: Platform_middle_und
+    21300190: Platform_middle_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -178,7 +197,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_1
@@ -192,7 +215,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 0.5, y: -3.5}
+        - {x: 0.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -1.5}
+        - {x: 2.5, y: -1.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_2
@@ -206,7 +234,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: -7.5}
+        - {x: -0.5, y: -7.5}
+        - {x: -0.5, y: -3.5}
+        - {x: -2.5, y: -1.5}
+        - {x: -7.5, y: -1.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_3
@@ -234,7 +267,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: 1.5006714}
+        - {x: 7.5, y: 1.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_5
@@ -248,7 +285,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -2.5, y: -7.5}
+        - {x: -2.5, y: 7.5}
+        - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_6
@@ -262,7 +303,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 2.500679, y: 7.416626}
+        - {x: 2.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_7
@@ -276,7 +321,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -0.5}
+        - {x: 3.5, y: -0.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_8
@@ -290,7 +340,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: -2.5, y: -7.5}
+        - {x: -2.4842129, y: 1.4945679}
+        - {x: 7.5, y: 1.5087585}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_9
@@ -304,7 +360,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: 1.5}
+        - {x: 2.5, y: 1.5}
+        - {x: 2.4301834, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_10
@@ -318,7 +380,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: -7.5}
+        - {x: -1.5, y: -7.5}
+        - {x: -1.5, y: -2.5}
+        - {x: -3.5, y: -0.5}
+        - {x: -7.5, y: -0.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_11
@@ -332,7 +399,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -1.5}
+        - {x: -7.5, y: -1.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_12
@@ -374,7 +445,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_15
@@ -388,7 +463,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_16
@@ -402,7 +481,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_17
@@ -416,7 +499,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_18
@@ -444,7 +531,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 1.5, y: 7.5}
+        - {x: 1.5, y: 1.5}
+        - {x: 3.5, y: -0.5}
+        - {x: 7.5, y: -0.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_20
@@ -458,7 +550,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -2.5}
+        - {x: -2.5, y: -2.5}
+        - {x: -2.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_21
@@ -472,7 +570,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 2.5, y: 7.5}
+        - {x: 2.478157, y: -2.4781494}
+        - {x: -7.5, y: -2.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_22
@@ -486,7 +590,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -0.5}
+        - {x: -3.5, y: -0.5}
+        - {x: -1.5, y: 1.5}
+        - {x: -1.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_23
@@ -500,7 +609,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: 2.5}
+        - {x: 2.5, y: 0.5}
+        - {x: 7.5, y: 0.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_24
@@ -514,7 +628,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: 0.5}
+        - {x: -0.5, y: 0.5}
+        - {x: 7.5, y: 4.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_25
@@ -528,7 +647,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -6.5, y: 7.5}
+        - {x: -7.5, y: 4.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 1.5, y: -7.5}
+        - {x: 7.5, y: -1.5}
+        - {x: 7.5, y: 6.5}
+        - {x: 5.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_26
@@ -542,7 +668,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -4.5, y: 7.5}
+        - {x: -7.5, y: 4.5}
+        - {x: -7.5, y: -6.5}
+        - {x: -6.5, y: -7.5}
+        - {x: 2.5, y: -7.5}
+        - {x: 7.5, y: -2.5}
+        - {x: 7.5, y: 3.5}
+        - {x: 5.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_27
@@ -556,7 +690,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 3.5, y: -7.5}
+        - {x: 6.5, y: -6.5}
+        - {x: 7.5, y: -4.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_28
@@ -570,7 +710,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 2.5}
+        - {x: 3.5, y: 7.5}
+        - {x: -2.5, y: 7.5}
+        - {x: -7.5, y: 6.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_29
@@ -584,7 +730,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 2.5, y: 7.5}
+        - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 4.5}
+        - {x: 5.5, y: 6.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_30
@@ -598,7 +750,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -2.5, y: 5.5}
+        - {x: -6.5, y: 2.5}
+        - {x: -7.5, y: -0.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 3.5}
+        - {x: 3.5, y: 5.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_31
@@ -612,7 +771,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 5.5}
+        - {x: -7.5, y: 5.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_32
@@ -626,7 +789,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_33
@@ -640,7 +807,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -1.5, y: 6.5}
+        - {x: -5.5, y: 4.5}
+        - {x: -5.5, y: -1.5}
+        - {x: -2.5, y: -7.5}
+        - {x: 2.5, y: -7.5}
+        - {x: 5.5, y: -6.5}
+        - {x: 5.5, y: 3.5}
+        - {x: 3.5, y: 6.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_34
@@ -654,7 +829,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -6.5, y: 7.5}
+        - {x: -7.5, y: 5.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 5.5}
+        - {x: 5.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_35
@@ -668,7 +849,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -6.5, y: 7.5}
+        - {x: -7.5, y: 5.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 5.5}
+        - {x: 5.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_36
@@ -682,7 +869,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -6.5, y: 7.5}
+        - {x: -7.5, y: 5.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 5.5}
+        - {x: 5.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_37
@@ -710,7 +903,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -5.5, y: -4.5}
+        - {x: -5.5, y: -7.5}
+        - {x: 0.5, y: -7.5}
+        - {x: 0.5, y: -4.5}
+        - {x: -1.5, y: -2.5}
+        - {x: -3.5, y: -2.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_39
@@ -752,7 +951,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -0.5, y: 1.5}
+        - {x: -0.5, y: -7.5}
+        - {x: 6.5, y: -7.5}
+        - {x: 7.5, y: -4.5}
+        - {x: 7.5, y: 3.5}
+        - {x: 1.5, y: 3.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_42
@@ -766,7 +971,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -1.5, y: 7.5}
+        - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -3.5}
+        - {x: 1.5, y: -3.5}
+        - {x: 3.5, y: -1.5}
+        - {x: 3.5, y: 3.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_43
@@ -780,7 +991,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -5.5, y: 7.5}
+        - {x: -5.5, y: 0.5}
+        - {x: -3.5, y: -1.5}
+        - {x: -1.5, y: -1.5}
+        - {x: 0.5, y: 0.5}
+        - {x: 0.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_44
@@ -850,7 +1067,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 2.5}
+        - {x: -7.5, y: -0.5}
+        - {x: -5.5, y: -2.5}
+        - {x: 7.5, y: -2.5}
+        - {x: 7.5, y: 4.5}
+        - {x: -5.5, y: 4.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_49
@@ -864,7 +1087,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 4.5}
+        - {x: -7.5, y: -2.5}
+        - {x: -5.5, y: -2.5}
+        - {x: -3.5, y: -0.5}
+        - {x: -3.5, y: 2.5}
+        - {x: -5.5, y: 4.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_50
@@ -878,7 +1107,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -6.5, y: -1.5}
+        - {x: -6.5, y: -6.5}
+        - {x: -5.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -1.5}
+        - {x: 3.5, y: 2.5}
+        - {x: -2.5, y: 2.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_51
@@ -892,7 +1128,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 0.5, y: -1.5}
+        - {x: 0.5, y: -6.5}
+        - {x: 1.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 2.5}
+        - {x: 4.5, y: 2.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_52
@@ -906,7 +1148,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: -7.5}
+        - {x: 1.5, y: -7.5}
+        - {x: 1.5, y: -1.5}
+        - {x: -2.5, y: 2.5}
+        - {x: -7.5, y: 2.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_53
@@ -920,7 +1167,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 1.5, y: -1.5}
+        - {x: 1.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 0.5}
+        - {x: 3.5, y: 0.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_54
@@ -934,7 +1186,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: -7.5}
+        - {x: 5.5, y: -7.5}
+        - {x: 5.5, y: -1.5}
+        - {x: 3.5, y: 0.5}
+        - {x: -7.5, y: 0.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_55
@@ -1004,7 +1261,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -6.5, y: 7.5}
+        - {x: -6.5, y: -3.5}
+        - {x: -5.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_60
@@ -1018,7 +1280,18 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 2.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 3.5, y: -7.5}
+        - {x: 3.5, y: 0.5}
+        - {x: 1.5, y: 2.5}
+      - - {x: 1.5, y: 7.5}
+        - {x: 0.5, y: 6.5}
+        - {x: 0.5, y: 3.5}
+        - {x: 3.5, y: -0.5}
+        - {x: 7.5, y: 0.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_61
@@ -1032,7 +1305,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 3.5, y: -6.5}
+        - {x: 3.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -3.5}
+        - {x: 6.5, y: -3.5}
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -0.5}
+        - {x: -4.5, y: 0.5}
+        - {x: 0.5, y: 6.5}
+        - {x: 0.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_62
@@ -1046,7 +1329,18 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: -2.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 0.5, y: -7.5}
+        - {x: 0.5, y: -6.5}
+        - {x: -1.5, y: -3.5}
+        - {x: -4.5, y: -2.5}
+      - - {x: 1.5, y: 7.5}
+        - {x: 1.5, y: -1.5}
+        - {x: 3.5, y: -3.5}
+        - {x: 7.5, y: -3.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_63
@@ -1060,7 +1354,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -3.5}
+        - {x: 3.5, y: -3.5}
+        - {x: 5.5, y: -1.5}
+        - {x: 5.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_64
@@ -1116,7 +1415,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -2.5, y: 7.5}
+        - {x: -2.5, y: -1.5}
+        - {x: -0.5, y: -3.5}
+        - {x: 2.5, y: -3.5}
+        - {x: 4.5, y: -1.5}
+        - {x: 4.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_68
@@ -1144,7 +1449,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 1.5, y: 7.5}
+        - {x: 1.5, y: -3.5}
+        - {x: 3.5, y: -5.5}
+        - {x: 7.5, y: -5.5}
+        - {x: 7.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_70
@@ -1158,7 +1468,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -5.5}
+        - {x: -1.5, y: -5.5}
+        - {x: 0.5, y: -3.5}
+        - {x: 0.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_71
@@ -1169,10 +1484,16 @@ TextureImporter:
         width: 19
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -4.5, y: 6.5}
+        - {x: -9.5, y: 0.5}
+        - {x: -9.5, y: -6.5}
+        - {x: 8.5, y: -6.5}
+        - {x: 9.5, y: -5.5}
+        - {x: 9.5, y: 6.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_72
@@ -1183,10 +1504,14 @@ TextureImporter:
         width: 19
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -9.5, y: 6.5}
+        - {x: -9.5, y: -6.5}
+        - {x: 9.5, y: -6.5}
+        - {x: 9.5, y: 6.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_73
@@ -1197,10 +1522,15 @@ TextureImporter:
         width: 17
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -5.5, y: 6.5}
+        - {x: -8.5, y: 3.5}
+        - {x: -8.5, y: -6.5}
+        - {x: 8.5, y: -6.5}
+        - {x: 8.5, y: 6.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_74
@@ -1211,10 +1541,17 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7, y: 9}
+        - {x: -8, y: 8}
+        - {x: -8, y: -4}
+        - {x: -4, y: -9}
+        - {x: 7, y: -9}
+        - {x: 8, y: -8}
+        - {x: 8, y: 9}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_75
@@ -1225,10 +1562,16 @@ TextureImporter:
         width: 21
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -4.5, y: 6.5}
+        - {x: -10.5, y: -0.5}
+        - {x: -10.5, y: -6.5}
+        - {x: 10.5, y: -6.5}
+        - {x: 10.5, y: 4.5}
+        - {x: 9.5, y: 6.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_76
@@ -1239,10 +1582,419 @@ TextureImporter:
         width: 21
         height: 15
       alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -10.5, y: 5.5}
+        - {x: -10.5, y: -7.5}
+        - {x: 5.5, y: -7.5}
+        - {x: 10.5, y: -4.5}
+        - {x: 10.5, y: 5.5}
+        - {x: 7.5, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Back_wall
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ramp_left_wbll
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 210
+        width: 15
+        height: 15
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -6.5}
+        - {x: 5.5, y: -6.5}
+        - {x: 5.5, y: -4.5}
+        - {x: 3.5, y: -4.5}
+        - {x: 3.5, y: -2.5}
+        - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: -0.5}
+        - {x: -0.5, y: -0.5}
+        - {x: -0.5, y: 1.5}
+        - {x: -2.5, y: 1.5}
+        - {x: -2.5, y: 3.5}
+        - {x: -4.5, y: 3.5}
+        - {x: -4.5, y: 5.5}
+        - {x: -6.5, y: 5.5}
+        - {x: -6.5, y: 7.5}
+      - - {x: -6.5, y: 7.5}
+        - {x: -6.5, y: 7.5}
+        - {x: -6.5, y: 7.5}
+        - {x: -6.5, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ramp_left_wol
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 195
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 6.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 6.5, y: -7.5}
+        - {x: 6.5, y: -5.5}
+        - {x: 4.5, y: -5.5}
+        - {x: 4.5, y: -3.5}
+        - {x: 2.5, y: -3.5}
+        - {x: 2.5, y: -1.5}
+        - {x: 0.5, y: -1.5}
+        - {x: 0.5, y: 0.5}
+        - {x: -1.5, y: 0.5}
+        - {x: -1.5, y: 2.5}
+        - {x: -3.5, y: 2.5}
+        - {x: -3.5, y: 4.5}
+        - {x: -5.5, y: 4.5}
+        - {x: -5.5, y: 6.5}
+        - {x: -7.5, y: 6.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ramp_left_bld
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 180
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 5.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 6.5, y: -7.5}
+        - {x: 6.5, y: -6.5}
+        - {x: 4.5, y: -6.5}
+        - {x: 4.5, y: -4.5}
+        - {x: 2.5, y: -4.5}
+        - {x: 2.5, y: -2.5}
+        - {x: 0.5, y: -2.5}
+        - {x: 0.5, y: -0.5}
+        - {x: -1.5, y: -0.5}
+        - {x: -1.5, y: 1.5}
+        - {x: -3.5, y: 1.5}
+        - {x: -3.5, y: 3.5}
+        - {x: -5.5, y: 3.5}
+        - {x: -5.5, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skull
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 225
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 5.5}
+        - {x: 5.5, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Platform_L_nund
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 270
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: -2.5}
+        - {x: 7.5, y: -2.5}
+        - {x: 7.5, y: -2.5}
+        - {x: 7.5, y: 2.5}
+        - {x: -7.5, y: 2.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: platform_middle
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 270
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -2.5}
+        - {x: 7, y: -2.5}
+        - {x: 7, y: 2.5}
+        - {x: -7, y: 2.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Platform_right_nund
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 270
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -2.5}
+        - {x: 8, y: -2.5}
+        - {x: 8, y: -2.5}
+        - {x: 8, y: 2.5}
+        - {x: -8, y: 2.5}
+      - - {x: 8, y: -2.5}
+        - {x: 8, y: -2.5}
+        - {x: 8, y: -2.5}
+        - {x: 8, y: -2.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Untitled_6_77
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 270
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: 1.5}
+        - {x: 7.5, y: 1.5}
+        - {x: 7.5, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Platform_left_nud
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 270
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 0.5}
+        - {x: -7.5, y: 0.5}
+        - {x: 7.5, y: 0.5}
+        - {x: 7.5, y: 5.5}
+        - {x: -7.5, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Platform_right_nud
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 270
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 0.5}
+        - {x: 7.5, y: 0.5}
+        - {x: 7.5, y: 0.5}
+        - {x: 7.5, y: 5.5}
+        - {x: -7.5, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Platform_left_ud
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 255
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 4.5}
+        - {x: -7.5, y: -0.5}
+        - {x: 7.5, y: -0.5}
+        - {x: 7.5, y: -0.5}
+        - {x: 7.5, y: 4.5}
+        - {x: -7.5, y: 4.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Platform_right_ud
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 255
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 4.5}
+        - {x: -7.5, y: -0.5}
+        - {x: 7.5, y: -0.5}
+        - {x: 7.5, y: -0.5}
+        - {x: 7.5, y: 4.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Platform_left_und
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 4.5}
+        - {x: -7.5, y: -0.5}
+        - {x: 7.5, y: -0.5}
+        - {x: 7.5, y: -0.5}
+        - {x: 7.5, y: 4.5}
+        - {x: -7.5, y: 4.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Platform_right_und
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 240
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 4.5}
+        - {x: -7.5, y: -0.5}
+        - {x: 7.5, y: -0.5}
+        - {x: 7.5, y: -0.5}
+        - {x: 7.5, y: -0.5}
+        - {x: 7.5, y: 4.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Platform_middle_nud
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 269
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 7}
+        - {x: -7.5, y: 2}
+        - {x: 7.5, y: 2}
+        - {x: 7.5, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Platform_middle_ud
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 254
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 5.5}
+        - {x: -7.5, y: 0.5}
+        - {x: 7.5, y: 0.5}
+        - {x: 7.5, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Platform_middle_und
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 239
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 5.5}
+        - {x: -7.5, y: 0.5}
+        - {x: -7.5, y: 0.5}
+        - {x: 7.5, y: 0.5}
+        - {x: 7.5, y: 5.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Platform_middle_2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 225
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: -2}
+        - {x: 7.5, y: -2}
+        - {x: 7.5, y: 4}
+        - {x: -7.5, y: 4}
       tessellationDetail: 0
     outline: []
     physicsShape: []
