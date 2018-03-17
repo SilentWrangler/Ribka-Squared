@@ -28,7 +28,10 @@ public class Knight : Creature {
 		if (direction == 0) {
 			facing = Direction.Right;
 		}
-		player = FindObjectOfType<PlayerWalk> ().gameObject;
+		PlayerWalk pw = FindObjectOfType<PlayerWalk> ();
+		if (pw) {
+			player = pw.gameObject;
+		}
 	}
 	// Update is called once per frame
 	void Update () {

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
 guid: 6cc7bbdb48eb5e64384274f52137a600
-timeCreated: 1518878593
+timeCreated: 1519403096
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Untitled_6_0
+    21300000: Block
     21300002: Untitled_6_1
     21300004: Untitled_6_2
     21300006: Untitled_6_3
@@ -105,6 +105,20 @@ TextureImporter:
     21300196: Button_up
     21300198: Button_down
     21300200: Button_middle
+    21300202: Lever_left
+    21300204: Lever_right
+    21300206: Block_bll
+    21300208: Block_blld
+    21300210: Block_bld
+    21300212: Flame1
+    21300214: Flame2
+    21300216: Flame3
+    21300218: Flame4
+    21300220: Flame5
+    21300222: Flame6
+    21300224: Flame7
+    21300226: Button
+    21300228: Buton_pressed
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -191,7 +205,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_6_0
+      name: Block
       rect:
         serializedVersion: 2
         x: 0
@@ -206,7 +220,8 @@ TextureImporter:
       - - {x: -7.5, y: 7.5}
         - {x: -7.5, y: -7.5}
         - {x: 7.5, y: -7.5}
-        - {x: 7.5, y: 7.5}
+        - {x: 7.5, y: 6.5}
+        - {x: 6.5, y: 7.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Untitled_6_1
@@ -1640,20 +1655,20 @@ TextureImporter:
       physicsShape:
       - - {x: -7.5, y: 7.5}
         - {x: -7.5, y: -7.5}
-        - {x: 7.5, y: -7.5}
-        - {x: 7.5, y: -6.5}
+        - {x: 6.5, y: -7.5}
+        - {x: 6.5, y: -7.5}
         - {x: 5.5, y: -6.5}
-        - {x: 5.5, y: -4.5}
+        - {x: 5.5, y: -6.5}
         - {x: 3.5, y: -4.5}
-        - {x: 3.5, y: -2.5}
+        - {x: 3.5, y: -4.5}
         - {x: 1.5, y: -2.5}
-        - {x: 1.5, y: -0.5}
+        - {x: 1.5, y: -2.5}
         - {x: -0.5, y: -0.5}
-        - {x: -0.5, y: 1.5}
+        - {x: -0.5, y: -0.5}
         - {x: -2.5, y: 1.5}
-        - {x: -2.5, y: 3.5}
+        - {x: -2.5, y: 1.5}
         - {x: -4.5, y: 3.5}
-        - {x: -4.5, y: 5.5}
+        - {x: -4.5, y: 3.5}
         - {x: -6.5, y: 5.5}
         - {x: -6.5, y: 7.5}
       - - {x: -6.5, y: 7.5}
@@ -1677,26 +1692,26 @@ TextureImporter:
       - - {x: -7.5, y: 6.5}
         - {x: -7.5, y: -7.5}
         - {x: 6.5, y: -7.5}
-        - {x: 6.5, y: -5.5}
+        - {x: 6.5, y: -7.5}
         - {x: 4.5, y: -5.5}
-        - {x: 4.5, y: -3.5}
+        - {x: 4.5, y: -5.5}
         - {x: 2.5, y: -3.5}
-        - {x: 2.5, y: -1.5}
+        - {x: 2.5, y: -3.5}
         - {x: 0.5, y: -1.5}
-        - {x: 0.5, y: 0.5}
+        - {x: 0.5, y: -1.5}
         - {x: -1.5, y: 0.5}
-        - {x: -1.5, y: 2.5}
+        - {x: -1.5, y: 0.5}
         - {x: -3.5, y: 2.5}
-        - {x: -3.5, y: 4.5}
+        - {x: -3.5, y: 2.5}
         - {x: -5.5, y: 4.5}
-        - {x: -5.5, y: 6.5}
+        - {x: -5.5, y: 4.5}
         - {x: -7.5, y: 6.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Ramp_left_bld
       rect:
         serializedVersion: 2
-        x: 76
+        x: 75
         y: 180
         width: 15
         height: 15
@@ -1705,22 +1720,22 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -7.5, y: 5.5}
+      - - {x: -7.5, y: 6.5}
         - {x: -7.5, y: -7.5}
         - {x: 6.5, y: -7.5}
         - {x: 6.5, y: -6.5}
-        - {x: 4.5, y: -6.5}
-        - {x: 4.5, y: -4.5}
-        - {x: 2.5, y: -4.5}
-        - {x: 2.5, y: -2.5}
-        - {x: 0.5, y: -2.5}
-        - {x: 0.5, y: -0.5}
-        - {x: -1.5, y: -0.5}
-        - {x: -1.5, y: 1.5}
-        - {x: -3.5, y: 1.5}
-        - {x: -3.5, y: 3.5}
-        - {x: -5.5, y: 3.5}
-        - {x: -5.5, y: 5.5}
+        - {x: 5.5, y: -6.5}
+        - {x: 5.5, y: -6.5}
+        - {x: 3.5, y: -4.5}
+        - {x: 3.5, y: -4.5}
+        - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: -2.5}
+        - {x: -0.5, y: -0.5}
+        - {x: -0.5, y: -0.5}
+        - {x: -2.5, y: 1.5}
+        - {x: -2.5, y: 1.5}
+        - {x: -4.5, y: 3.5}
+        - {x: -6.5, y: 5.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Skull
@@ -2098,6 +2113,230 @@ TextureImporter:
         - {x: -4.5, y: -5}
         - {x: 4.5, y: -5}
         - {x: 4.5, y: 5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lever_left
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 180
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -0.5, y: 4.5}
+        - {x: -6.5, y: 4.5}
+        - {x: -7.5, y: 3.5}
+        - {x: -7.5, y: -4.5}
+        - {x: -6.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -4.5}
+        - {x: 4.5, y: -0.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lever_right
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 180
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3.5, y: 4.5}
+        - {x: -4.5, y: 1.5}
+        - {x: -7.5, y: -4.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 4.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_bll
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 195
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 6.5}
+        - {x: 6.5, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_blld
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 180
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_bld
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 180
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 6.5}
+        - {x: 6.5, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flame1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 194
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flame2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 194
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flame3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 194
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flame4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 194
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flame5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 194
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flame6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 194
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flame7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 194
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 165
+        width: 60
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buton_pressed
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 165
+        width: 60
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
     outline: []
     physicsShape: []

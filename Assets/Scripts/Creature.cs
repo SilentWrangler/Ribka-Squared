@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Creature : Movable {
 	public float speed;
@@ -63,10 +64,15 @@ public class Creature : Movable {
 		}
 	}
 
-	void Die(){
+	protected void Die(){
+		if (gameObject.CompareTag("Player")){
+			SceneManager.LoadScene("Main");
+		}
 		GameObject.Destroy (this.gameObject);
 	}
-
+	public int GetHP(){
+		return HP;
+	}
 	protected void Fire(Direction dir,float force=300f){
 		if (gun) {
 			if (projectile) {
